@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display SC", serif;
+  line-height: 1.8;
+  color: #49281a;
+  background-color: blanchedalmond;
+  padding: 30px;
+}
+
+
+header{
+    
+    border:2px solid #000;
+    text-align: center;
+    padding: 50px 0;
+    line-height: 1.8;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+   
+header a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #49281a;
+    color: #f0e2cf;
+    margin: 10px auto 0;
+     text-decoration: none;
+     border-radius: 7px;
+}
+
+
+.navul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+ 
+}
+
+
+.navli {
+    margin: 0 10px;
+    margin-top: 20px;
+  }
+  
+  .navlist {
+    color: #49281a;
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+  }
+  
+  .navul .navli .navlist:hover {
+    background-color: rgb(238, 175, 221);
+}
+   
+
+
+  section {
+    padding: 20px;
+    background-color: blanchedalmond;
+  }
+  
+  section p {
+    color: #49281a;
+    font-family: "Roboto", serif;
+}
+   
+ .menu-items {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.menu-items img {
+    max-width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .menu-items h3 {
+    margin : 10px 0;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: center;
+    gap: 25px;
+    padding: 20px ;
+  }
+  .card {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+  }
+
+ .footer {
+    display: inline-block;
+  margin-top: 10px ;
+  padding: 10px 50px;
+  border-width: 0px;
+  background-color: #49281a;
+  color: white;
+  text-decoration: none;
+  border-radius: 9px;
+  /* width: 200px; */
+  margin-bottom: 10px;
+}
+
+.footer:hover {
+  background-color:rgb(164, 171, 154);
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form input,
+textarea {
+    padding: 3px;
+    border: 1px solid beige;
+    border: radius 5px;
+}
+    
+form button {
+    background-color: #49281a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 2s;
+}
+    
+
+form button:hover {
+background-color: green;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+    font-size: .9em;
+}
+
+  
+
+  
